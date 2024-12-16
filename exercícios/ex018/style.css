@@ -1,0 +1,143 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'idroid' ;
+    src: url('fonte/idroid.otf') format('openType');
+   
+    font-weight: normal;
+    font-style: normal;
+    
+    
+   }
+     body{
+        background-color: rgb(78, 184, 68);
+     }
+    header{
+       font-family: Arial, Helvetica, sans-serif;
+        color: aliceblue;
+        background-image: linear-gradient(rgb(0, 224, 0), rgb(17, 88, 3));
+        padding: 10px;
+        margin: 0px;
+        
+    }
+    header > h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        text-shadow: 1px 1px 1px black;
+    }
+    header > p{
+        text-align: center;
+        text-shadow: 1px 1px 1px black;
+    }
+    header > a{
+        font-weight: 1000;
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        font-size: small;
+    }
+    header > a:hover{
+        text-decoration: underline;
+       
+    }
+    main{
+         background-color: rgb(255, 255, 255);
+         margin: 10px auto 10px auto;
+         height: auto;
+         width: 700px;
+         padding: 20px;
+         
+        max-width: 95%; /* Não ultrapassa a largura do contêiner pai */
+        margin: 0 auto;
+
+    }
+    main > h2{
+        text-align: center;
+        font-family: 'idroid';
+        color: darkgreen;
+        margin: auto;
+        text-align: justify;
+    }
+    main > p {
+        font-family: Arial, Helvetica, sans-serif;
+        text-indent: 20px;
+        text-align: justify;
+        word-wrap: break-word;
+        overflow-wrap: break-word; 
+        width: 100%;
+        max-width: 100%;
+    }
+    main >h3{
+        font-family: 'idroid';
+        color: darkgreen;
+       background-image: linear-gradient( to right, rgb(106, 255, 106), white);
+        
+    } 
+    main > p > a {
+        color: green;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    main > p > a:hover {
+        text-decoration: underline;
+    }
+    main > picture> img {
+      max-width: 100%;
+      height: auto;
+     
+    }
+  div{
+    background-color: darkgreen;
+         margin: 10px auto 10px auto;
+         height: auto;
+         width: 700px;
+         padding: 20px;
+         
+        max-width: 95%; /* Não ultrapassa a largura do contêiner pai */
+        margin: 0 auto;
+       
+        
+    }
+    div>iframe{
+        max-width: 100%;
+    }
+ div#container{
+    background-color: green;
+        border: 10px solid green;
+        
+ }
+    h4{
+        background-color: green;
+        border: 10px solid green;
+        border-radius: 5px 5px 0px 0px;
+      margin: 0px;
+    }
+    p#ultimo{
+       max-width: 100%;
+       background-color: rgb(39, 170, 39);
+       margin: 0px;
+       padding-top: 15px;
+       padding-bottom: 17px;
+    }
+    ul{
+        background-color: rgb(39, 170, 39);
+        margin: 0px;
+        display: flex;
+        
+        gap: 150px;
+
+        
+    }
+    p#utimasso{
+        max-width: 100%;
+       background-color: rgb(39, 170, 39);
+       margin: 0px;
+       padding-top: 15px;
+       padding-bottom: 17px;
+
+       border-radius: 0px 0px 5px 5px;
+    }
+    img{
+        display: block;
+        margin: 0 auto;
+       
+    }
