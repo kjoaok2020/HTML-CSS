@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Estados</h1>
+
+    <label for="est">Estados:</label>
+    <select name="est" id="est">
+
+        <option value="" selected>-- Escolha --</option>
+        <optgroup label="Centro Oeste">
+            <option value="Go">Goiás</option>
+            <option value="Df">Distrito Federal</option>
+            <option value="MG">Minas</option>
+        </optgroup>
+
+        <optgroup label="Região Nordeste">
+            <option value="MA">Maranhão</option>
+            <option value="CE">Ceará</option>
+            <option value="PE">Pernanbuco</option>
+        </optgroup>
+
+    <p>
+        </select>
+        <label for="num">numero</label>
+        <input type="range" name="num" id="num" min="0" max="10" oninput="val.innerHTML = (num.value)">
+        <output id="val"> 10</output>
+    </p>
+    <p>
+        <label for="msg">Mensagem</label> <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    </p>
+</body>
+</html>
